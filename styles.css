@@ -1,3 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+        background-color: #abb1b9;
+
+}
 header, footer, div, ul, p, h2, h3, h4{
     border: solid black;
     font-family: futura;
@@ -5,17 +12,15 @@ header, footer, div, ul, p, h2, h3, h4{
 
 ul{
     list-style: none;
+    list-style-type: none;
 
 }
 
 .main-header {
     display: flex;
     font-size: 24px;
-    color: #F9FAF8;
     padding: 0px;
-    height: 300px;
-    background-color: #1F2937;
-
+    margin-bottom: 200px;
 
 }
 
@@ -34,15 +39,13 @@ ul{
     display: flex;
     gap: 20px;
     justify-content: center;
-    color: #F9FAF8;
-    background-color: #1F2937;
     padding: 10px;
-    height: 500px;
-}
+    margin-top: 200px;
+    margin-bottom: 200px;}
 
 .profile-pic{
-    width: 70%;
-    height: auto;
+    width: auto;
+    height: 300px;
     display: flex;
     justify-content: center;
 
@@ -58,32 +61,41 @@ ul{
 }
 .section-two{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap:30px;
-    height: 700px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .thumbnail{
     max-width: 200px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .thumbnail-pic{
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 
-.section-three-quote{
-    display: flex;
-    justify-content: center;
+.work-image{
+    float: left;
+    height: 100%;
     width: 400px;
-    margin: auto;
+    object-fit: cover;
 }
 
-.section-three-author{
-    text-align: right;
-    margin-right: 200px;
-    margin-top:0px;
-    padding-top: 0px;
+ .gallery-list{
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+ }
+/* .work-gallery > li{
+    flex-basis: 350px;
 }
+
+.work-gallery li img{
+    object-fit: cover;
+    
+}  */
