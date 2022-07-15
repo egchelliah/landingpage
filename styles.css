@@ -3,6 +3,7 @@ html{
 }
 body{
         background-color: #abb1b9;
+        margin:0px;
 
 }
 header, footer, div, ul, p, h2, h3, h4{
@@ -40,7 +41,7 @@ ul{
     font-size: 24px;
     padding: 0px;
     margin-bottom: 100px;
-
+    flex-wrap: wrap;
 }
 
 .header-list{
@@ -60,6 +61,7 @@ ul{
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    flex-wrap: wrap;
     }
 
 .profile-pic{
@@ -82,6 +84,7 @@ ul{
     display: flex;
     justify-content: space-around;
     gap:30px;
+    flex-wrap: wrap;
 }
 .thumbnail{
     max-width: 200px;
@@ -89,6 +92,7 @@ ul{
     flex-direction: column;
     align-items: center;
     gap:10px;
+    flex-wrap: wrap;
 }
 
 .thumbnail-pic{
@@ -109,6 +113,7 @@ ul{
     display: flex;
     gap:10px;
     justify-content: space-around;
+    flex-wrap: wrap;
  }
 
  .footer-list{
@@ -138,5 +143,5 @@ ul{
  }
 
  button{
-    font-size: 30px;
+    font-size: 20px;
  }
